@@ -47,6 +47,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener, A
         initEvents();//初始化事件
         if(mAMapLocationClient == null) initLocation();//初始化地图定位
         selectTab(R.id.id_tab_home);//默认选中第一个Tab
+
     }
 
     private void initEvents() {

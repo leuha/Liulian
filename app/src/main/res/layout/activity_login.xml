@@ -32,6 +32,8 @@
         android:text="还没注册？"
         android:textSize="20pt"
         android:textColor="#00f"
+        android:clickable="true"
+        android:onClick="goRegisterActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal" />
