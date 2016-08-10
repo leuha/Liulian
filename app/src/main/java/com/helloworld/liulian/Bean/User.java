@@ -1,4 +1,4 @@
-package com.helloworld.liulian.Bean;
+package com.helloworld.liulian.bean;
 
 import cn.bmob.v3.BmobUser;
 
