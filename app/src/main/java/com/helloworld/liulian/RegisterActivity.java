@@ -19,9 +19,9 @@ import cn.bmob.v3.listener.LogInListener;
 
 public class RegisterActivity extends FragmentActivity {
 
-    TextView register_username = (TextView)findViewById(R.id.id_register_username);
+    /*TextView register_username = (TextView)findViewById(R.id.id_register_username);
     TextView register_secret = (TextView)findViewById(R.id.id_register_secret);
-    TextView register_secretagain = (TextView)findViewById(R.id.id_register_secretagain);
+    TextView register_secretagain = (TextView)findViewById(R.id.id_register_secretagain);*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +29,7 @@ public class RegisterActivity extends FragmentActivity {
         setContentView(R.layout.activity_register);
     }
 
-    void onBtnRegister(View view)
+    /*void onBtnRegister(View view)
     {
         UserModel.getInstance().register(register_username.getText().toString(),
                 register_secret.getText().toString(),
@@ -49,5 +49,5 @@ public class RegisterActivity extends FragmentActivity {
             }
         });
 
-    }
+    }*/
 }
