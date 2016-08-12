@@ -2,6 +2,8 @@ package com.helloworld.liulian.model;
 
 import android.content.Context;
 
+import com.helloworld.liulian.LiulianApplication;
+
 /**
  * @author :smile
  * @project:BaseModel
@@ -15,6 +17,6 @@ public abstract class BaseModel {
     public static final int DEFAULT_LIMIT=20;
 
     public Context getContext(){
-        return null;
+        return LiulianApplication.INSTANCE();
     }
 }

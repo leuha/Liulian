@@ -17,7 +17,7 @@ import cn.bmob.v3.listener.DeleteListener;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.LogInListener;
 import cn.bmob.v3.listener.SaveListener;
-import com.helloworld.liulian.bean.User;
+import com.helloworld.liulian.Bean.User;
 
 /**
  * @author :smile
